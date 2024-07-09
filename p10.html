@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colored Divs with Image</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-top: 300px;
+      background-color: #e1e1e1;
+      background-image: url('p1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      direction: rtl;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .div1 {
+      width: 1000px;
+      height: 500px;
+      background-color: #4B6472;
+      border-radius: 20px;
+     
+    }
+
+    .div2 {
+      width: 1000px;
+      height: 100px;
+      background-color: #4B6472;
+      border-radius: 20px;
+    }
+
+    .rating {
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .rating button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .rating button.active {
+    background-color: grey;
+  }
+
+  
+  #totalRate {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  /* For smaller screens (e.g., smartphones) */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .div1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .div2 {
+    width: 100%;
+  }
+
+  .rating button {
+    padding: 3px 8px;
+    font-size: 14px;
+  }
+
+  #totalRate {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #f1f1f1;
+  }
+}
+
+/* For medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 90%;
+    padding: 30px;
+    height: 100%;
+  }
+
+  .div1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .div2 {
+    width: 100%;
+  }
+
+  .rating button {
+    padding: 4px 10px;
+    font-size: 16px;
+  }
+
+  #totalRate {
+    font-size: 30px;
+    margin-top: 15px;
+    color: #f1f1f1;
+  }
+}
+
+/* For larger screens (e.g., desktops) */
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+    padding: 40px;
+  }
+
+  .div1 {
+    width: 1000px;
+    height: 350px;
+  }
+
+  .div2 {
+    width: 1000px;
+  }
+
+  .rating button {
+    padding: 5px 12px;
+    font-size: 18px;
+  }
+
+  #totalRate {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #f1f1f1;
+  }
+}
+h3 {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+  font-size: 20px;
+}
+
+.rating {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rating button {
+  vertical-align: middle;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="div1">
+      <h3 style="color: white;">أشعر بالتفاؤل والأمل تجاه المستقبل.</h3>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      
+    <div class="rating">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10</button>
+    </div>
+
+    <br>
+  
+  <h3 style="color: white;">أشعر بالراحة عند اتخاذ القرارات الهامة في حياتي. </h3>
+  &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      
+      
+      
+     
+    <div class="rating">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10</button>
+    </div>
+    
+    <br>
+  
+  <h3 style="color: white;">أشعر بالاتزان النفسي والعاطفي في حياتي اليومية.</h3>
+  &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      
+      
+    <div class="rating">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10</button>
+    </div>
+  <br>
+  <h3 style="color: white;">أعتقد أنني أستطيع التعامل مع التوتر والضغوط اليومية بشكل جيد.</h3>
+  &nbsp;
+  &nbsp;
+    <div class="rating">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10</button>
+    </div>
+
+    <br>
+    <h3 style="color: white;">أقيّم علاقتي بذاتي وقدرتي على تحقيق السعادة الداخلية بشكل إيجابي.</h3>
+    <div class="rating">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10</button>
+    </div>
+    
+    
+    </div>
+    <div class="div2">
+      <div id="totalRate">إجمالي التقييم: 0.00</div>
+    </div>
+  </div>
+
+  <script>
+   const ratingButtons = document.querySelectorAll('.rating button');
+const totalRateElement = document.getElementById('totalRate');
+let totalRate = 0;
+
+ratingButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    // Toggle the active class for the clicked button
+    button.classList.toggle('active');
+
+    // Update the total rate
+    if (button.classList.contains('active')) {
+      totalRate += parseInt(button.textContent);
+    } else {
+      totalRate -= parseInt(button.textContent);
+    }
+    const averageRate = totalRate / 5;
+    totalRateElement.textContent = `إجمالي التقييم: ${averageRate.toFixed(2)}`;
+  });
+});
+  </script>
+</body>
+</html>
